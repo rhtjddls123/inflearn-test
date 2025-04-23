@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-body: "Noto Sans KR", sans-serif;
+
+  --color-primary: #1d2745;
+  --color-secondary: #1de5d4;
+  --color-tertiary: #f52c50;
+  --color-white: #ffffff;
+  --color-mono100: #f1f1f1;
+  --color-mono200: #bebebe;
+  --color-mono300: #d6d7d9;
+  --color-error: #d01e1e;
+
+  --text-xs: 12px;
+  --text-xs--line-height: 18px;
+  --text-xs--letter-spacing: 0;
+  --text-xs--font-weight: 400;
+
+  --text-sm: 14px;
+  --text-sm--line-height: 21px;
+  --text-sm--letter-spacing: 0;
+  --text-sm--font-weight: 400;
+
+  --text-base: 16px;
+  --text-sm--line-height: 24px;
+  --text-sm--letter-spacing: 0;
+  --text-sm--font-weight: 400;
+
+  --text-xl: 20px;
+  --text-xl--line-height: 30px;
+  --text-xl--letter-spacing: 0;
+  --text-xl--font-weight: 400;
+
+  --text-2xl: 24px;
+  --text-2xl--line-height: 36px;
+  --text-2xl--letter-spacing: 0;
+  --text-2xl--font-weight: 700;
+
+  --height-text: 18px;
+  --height-bar: 166px;
+
+  --width-bar: 328px;
+
+  --radius-default: 5px;
+  --radius-caption: 9px;
+  --radius-tag-button: 16px;
+  --radius-chat-text-field: 20px;
+}
+
+@layer base {
+  html {
+    font-family: "Noto Sans KR";
+  }
+}
