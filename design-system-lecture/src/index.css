@@ -11,6 +11,7 @@
   --color-mono200: #bebebe;
   --color-mono300: #d6d7d9;
   --color-error: #d01e1e;
+  --color-dark-opacity: rgba(255, 255, 255, 0.1);
 
   --text-xs: 12px;
   --text-xs--line-height: 18px;
@@ -51,5 +52,11 @@
 @layer base {
   html {
     font-family: "Noto Sans KR";
+  }
+}
+
+@layer components {
+  .text-field > p {
+    @apply absolute;
   }
 }

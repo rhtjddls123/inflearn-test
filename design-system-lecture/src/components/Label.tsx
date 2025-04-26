@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 interface ILabelProps {
-  htmlFor?: string;
+  htmlFor: string;
   children: ReactNode;
 }
 
