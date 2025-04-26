@@ -7,7 +7,7 @@ interface ITagListProps<T extends string> {
 }
 
 const TagList = <T extends string>({ tagList, onTagClick }: ITagListProps<T>) => {
-  const [selectedTag, setSelectedTag] = useState<string>(tagList[0]);
+  const [selectedTag, setSelectedTag] = useState<T>(tagList[0]);
 
   return (
     <div
