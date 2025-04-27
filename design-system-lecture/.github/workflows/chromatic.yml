@@ -1,6 +1,9 @@
 name: "Chromatic"
 
-on: push
+on:
+  push:
+    paths:
+      - "design-system-lecture/**"
 
 jobs:
   chromatic:
