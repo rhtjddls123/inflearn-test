@@ -2,8 +2,6 @@ name: "Chromatic"
 
 on:
   push:
-    paths:
-      - "design-system-lecture/**"
 
 jobs:
   chromatic:
