@@ -10,10 +10,7 @@ const CategoryButton = ({ iconPath, iconAlt, text, onClick }: ICategoryButtonPro
     <button
       onClick={onClick}
       className={`
-    rounded-default 
-    border 
-    border-primary 
-    text-primary 
+    rounded-default border border-primary text-primary 
     text-base 
     font-bold 
     pl-[22px] 
